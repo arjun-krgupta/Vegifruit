@@ -1,0 +1,393 @@
+ 
+@media (max-width:1290px)
+{
+    .front-text h1{
+        font-size: 60px;
+    }
+}
+
+ @media (max-width:1150px)
+ {
+    iframe{
+        width: 400px;
+    }
+    .front-text h1{
+        font-size: 50px;
+    }
+ }
+ @media (max-width:1060px)
+ {
+    iframe{
+        width: 370px;
+    }
+    .in,.text{
+        width: 400px;
+    }
+    .fruits img,.vegetables img{
+        width: 190px;
+        height: 150px;
+    }
+    .about-img img {
+        margin-top: 0px;
+        width: 350px;
+        height: 300px;
+    }
+ }
+ @media (max-width:970px)
+ {
+    .navbar h1{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .menu a{
+        margin-right: 30px;
+        font-size: 16px;
+    }
+    .front-text h1{
+        font-size: 43px;
+    }
+    .front-img img{
+        width: max-content;
+        height: 400px;
+    }
+    .services img{
+        width: 240px;
+        height: 260px;
+    }
+    .services h2{
+        font-size: 18px;
+    }
+    .about-img img {
+        width: 300px;
+        height: 280px;
+    }
+    .fruits img,.vegetables img{
+        width: 170px;
+        height: 150px;
+    }
+    .vegetables h1,.fruits h1{
+        font-size: 22px;
+    }
+    .mgmt img {
+        width: 210px;
+        height: 250px;
+    }
+    iframe{
+        width: 340px;
+    }
+    .contact-input{
+        margin-left:30px;
+    }
+ }
+
+ @media (max-width:900px)
+ {
+    .front-text h1{
+        font-size: 38px;
+    }
+    .about-img img {
+        width: 250px;
+        height: 260px;
+    }
+    .front-img>img{
+        width: 300px;
+        height: 400px;
+    }
+    .fruits img,.vegetables img{
+        width: 160px;
+        height: 150px;
+    }
+    .vegetables h1,.fruits h1{
+        font-size: 20px;
+    }
+    .vegetables p,.fruits p{
+        font-size: 18px;
+    }
+    .fruits-item,.vegetables-item{
+        gap:10px;
+    }
+    .prev{
+        display: none;
+    }
+    .next{
+        display: none;
+    }
+    iframe{
+        margin-right: 30px;
+        width: 320px;
+    }
+    .in,.text{
+        width: 330px;
+    }
+ }
+
+ @media (max-width:800px)
+ {
+    .front-img img{
+        width: max-content;
+        height: 300px;
+    }
+ }
+
+ @media (max-width:768px) {
+    .cart{
+        display: none;
+    }
+    #cart-show{
+        display: block;
+        position: absolute;
+        right: 90px;
+        top: 45px;
+        cursor: pointer;
+        color: black;
+        font-size: 35px;
+    }
+    #nav-icon{
+        display: block;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        cursor: pointer;
+    }
+    .menu{
+        width: 180px;
+        position: absolute;
+        top: 25px;
+        left: 0;
+        display: none;
+        margin-top: 70px;
+        background-color: rgb(216, 201, 201);
+    }
+    .active{
+        display: block;
+    }
+    .menu a{
+        display: block;
+        color: white;
+        margin:15px 10px;
+    }
+    .services img{
+        width: 200px;
+        height: 220px;
+    }
+    .front-text h1{
+        font-size: 35px;
+    }
+    .front-img img{
+        width: max-content;
+        height: 240px;
+    }
+    .about-text p{
+        font-size: 16px;
+    }
+    .mgmt>img {
+        width: 180px;
+        height: 200px;
+    }
+    .mgmt>h1{
+        font-size: 18px;
+    }
+    .mgmt>p{
+    font-size: 16px;
+    }
+    .fruits img,.vegetables img{
+        width: max-content;
+        height: 130px;
+    }
+    
+ }
+
+ @media (max-width:700px)
+ {
+    .register-icon{
+        margin-right: 30px;
+    }
+    #heading{
+        font-size: 30px;
+    }
+    .front{
+        display: flex;
+       justify-content: space-between;
+       align-items: center;
+        gap: 30px;
+    }
+    .front-img>img{
+        width: max-content;
+        height: 230px;
+        margin-bottom: 80px;
+    }
+    .front-text{
+        margin-left: 15px;
+    }
+    .front-text h1{
+        font-size: 35px;
+    }
+    .front-text p{
+        font-size: 16px;
+    }
+    .our-service{
+        position: relative;
+        bottom: 100px;
+    }
+    .service-container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 0;
+    }
+    .services img{
+        width: max-content;
+        height: 140px;
+    }
+    .about-us{
+        position: relative;
+        top: 70px;
+    }
+    .about-container{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .about-img img{
+        margin-top: 20px;
+        width: max-content;
+        height: 230px;
+    }
+    .about-text{
+        margin-top: 0px;
+        margin-left: 0;
+        text-align: justify;
+        width: 95%;
+    }
+    .vegetables-area{
+        position: relative;
+        top: 150px;
+    }
+    .vegetables-area>h1{
+        font-size: 30px;
+    }
+    .vegetables-item,.fruits-item{
+        flex-direction: column;
+        margin-top: 10px;
+    }
+    .vegetables img,.fruits img{
+        width: 250px;
+        height: 100px;
+    }
+    .see-all{
+        margin-top: 20px;
+    }
+    .fruits{
+        position: relative;
+        top: 100px;
+    }
+    .fruits>h1{
+        font-size: 30px;
+    }
+    .mgmt-item{
+        display: flex;
+        flex-direction: column;
+    }
+    .mgmt img{
+        width: 250px;
+        height: 140px;
+    }
+    .contact-item{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .in,.text::placeholder{
+        font-size: 16px;
+    }
+    .in,.text{
+        width: 330px;
+    }
+    .text{
+        height: 100px;
+    }
+    iframe{
+        display: none;
+    }
+    .contact{
+        margin-top: 220px;
+    }
+.contact-input{
+    margin-top: 30px;
+    margin-left: 0;
+} 
+ }
+
+ @media( max-width:640px)
+ {
+  .front{
+    display: flex;
+    flex-direction: column;
+  }
+  .front-img>img{
+    height: 200px;
+    margin-left: 370px;
+    margin-top: 80px;
+  }
+  .front-text{
+    position: absolute;
+    bottom: 10px;
+    width: 95%;
+  }
+  .front-text>h1{
+    font-size: 30px;
+  }
+  .front-text>p{
+    font-size: 16px;
+  }
+  .front-text>a>button{
+    font-size: 16px;
+   width: max-content;
+   padding: 5px;
+  }
+ }
+
+ @media (max-width:530px)
+ {
+    .navbar h1{
+        margin-left: 10px;
+        font-size: 35px;
+    }
+    .front-img>img{
+        margin-left: 300px;
+    }
+    .front-text{
+        margin-left: 5px;
+    }
+    .front-text>h1{
+        font-size:25px ;
+    }
+    .front-text>p{
+        font-size: 15px;
+    }
+    .about-img>img{
+        height: 170px;
+    }
+    .about-text>p{
+        font-size: 17px;
+    }
+    .about-text>button{
+        width: max-content;
+        font-size: 16px;
+        padding: 5px;
+        margin-left: 10px;
+    }
+    .in,.text{
+        width: 280px;
+    }
+    .footer p{
+        font-size: 12px;
+    }
+ }
+ @media(max-width:450px)
+ {
+    .front-img>img{
+        height: 140px;
+        margin-left: 300px;
+    }
+ }
+

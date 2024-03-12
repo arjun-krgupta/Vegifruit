@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en-in">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <script src="https://kit.fontawesome.com/d0040ac2ba.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+    <header>
+        <div class="register-icon">
+            <a href=""><i class="fa-solid fa-user"></i> Login</a>
+            <a href=""><i class="fa-solid fa-right-to-bracket"></i> SignUp</a>
+        </div>
+        <nav class="navbar">
+            <h1>VegiFruit</h1>
+            <i class="fa-solid fa-bars" id="nav-icon"></i>
+            <div class="menu">
+                    <a href="index.html"> Home </a>
+                    <a href="#about"> About</a>
+                    <a href="fruits.html">Fruits</a>
+                    <a href="vegetables.html">Vegetables</a>
+                    <a href="contact.html"> Contact </a>
+                    <a href=""><i class="fa-solid fa-bag-shopping cart"></i></a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="contact-area">
+        <h1>Contact Us</h1>
+        <div class="contact-item">
+        <div class="contact-input">
+            <form name="myform">
+                <input type="text" placeholder="Name" id="name" onkeydown="return /^[a-zA-Z\s]+$/.test(event.key)"  class="in" /><div id="name-error"></div>
+                <input type="email" placeholder="Email" id="mail" class="in" />
+                <div id="mail-error"></div>
+                <input type="text" placeholder="Mobile No." name="number" onkeydown="return /^[0-9]*$/.test(event.key)" class="in" />
+                <div id="num-error"></div>
+                <textarea name="" id="" cols="61" rows="8" class="text" placeholder="Message..."></textarea><br>
+                <button id="btn" onclick="return validate()" type="submit">Send</button>
+            </form>
+        </div> 
+        </div>
+        </section>
+        <div class="footer">
+            <p> Copyright Arjun &copy; 2023 | All rights Reserved.</p>
+        </div>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
